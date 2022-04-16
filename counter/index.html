@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        h1{
+            font-size: 100px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+        .value{
+            font-size:170px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        button{
+            min-width:100px;
+            max-width: 150px;
+            line-height: 40px;
+            border-radius: 5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size:19.5px;
+            cursor: pointer;
+        }
+        .container{
+            margin-top: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .value{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .buttons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-evenly;
+            
+        }
+    </style>
+    <title>Counter</title>
+</head>
+<body><div class="container">
+<h1>Counter</h1>
+</div>
+<div class="box">
+<span class="value">0</span>
+<div class="buttons">
+        <button class="btn decrease">Decrease</button>
+        <button class="btn reset">Reset</button>
+        <button class="btn increase">Increase</button>
+    </div>
+</div>
+</body>
+</html>
