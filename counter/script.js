@@ -28,7 +28,7 @@ btns.forEach(function (bt)
             v.style.color='red'
         }
         else{
-            v.style.color='white'
+            v.style.color=''
         }
         v.textContent=count
     })
