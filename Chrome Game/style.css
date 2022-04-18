@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Montserrat:wght@200&family=Orbitron&family=Quicksand&family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+.container{
+    margin:auto;
+    height: 25vh;
+    width:600px;
+    margin-top: 10%;
+    border: 1px solid black;
+    position: relative;
+    background-color: #bce2f1;
+}
+.mask{
+   
+}
+.land{
+    background-image: url('land.png');
+    background-size: 100% 100%;
+    width:600px;
+    height:10%;
+    position: absolute;
+    bottom: 0;
+}
+.cload
+{
+    background-image: url('cloud.png');
+    background-size: 100% 100%;
+    height: 45px;
+    width:70px;
+    top:25px;
+    position: absolute;
+    animation:cload 5s infinite linear;
+}
+.cloud2{
+    background-image: url('cloud.png');
+    background-size: 100% 100%;
+    height: 45px;
+    width:70px;
+    top:25px;
+    position: absolute;
+    animation:cload 5.5s infinite linear;
+}
+@keyframes cload{
+    0%{left:600px}
+    100%{left:-50px}
+}
+.mount{
+    background-image: url('mount.png');
+    background-size: 100% 100%;
+    height:200px;
+    width:150px;
+    right:0;
+    bottom: 2px;
+    position: absolute;
+    animation:mount 4s infinite linear;
+}
+@keyframes mount{
+    0%{left:600px}
+    100%{left:-150px}
+}
+
+.chara{
+    /* background-color: red; */
+    background-image: url('ostra-unscreen.gif');
+    background-size: 100% 100%;
+    height:90px;
+    width:90px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 5px;
+    
+}
+.bo{
+    position: relative;
+}
+.startbo{
+    position: absolute;
+    height: 25vh;
+    width: 200px;
+    background-color: red;
+    right: 267px;
+    bottom: 2px;
+}
+button{
+    margin-left: 200px;
+    margin-left: 78px;
+margin-top: 38px;
+width:85px;
+line-height: 35px;
+font-size: 20px;
+}
+.animate{
+    animation: jump 500ms;
+}
+@keyframes jump{
+    0%{bottom:0px}
+    30%{bottom:50px}
+    70%{bottom:50px}
+    100%{bottom:0px}
+}
+.score{
+    font-size: 25px;
+    height: 25vh;
+    width: 200px;
+    position: absolute;
+    left: 267px;
+    bottom: 2px;
+    background-color: red;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+    font-family: 'Orbitron', sans-serif;
+    
+    font-family: 'Quicksand', sans-serif;
+    
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#score{
+    position: absolute;
+    top:30%;
+    left:20%;
+}
+.ob{
+    position: absolute;
+    /* background-color: blue; */
+    background-image: url('cactus.png');
+    background-size:100% 100%;
+    height: 50px;
+    width:40px;
+    bottom:0;
+    right: 0px;
+    animation: ob 2s infinite linear;
+}
+@keyframes ob{
+    0%{left:600px;}
+    100%{left:-10px;}
+}
